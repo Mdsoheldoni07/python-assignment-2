@@ -1,0 +1,19 @@
+a=["saqeeb","maaz","sohel"]
+print(a)
+x=a[2]
+print(x)
+a[1]="tanveer"
+print(a)
+a.append(36)
+print(a)
+a.remove("sohel")
+x=len(a)
+print(a)
+print(a)
+a.clear()
+print(a)
+b=[12,21,32,42,52,87]
+for x in b:
+    print(x)
+b.pop(2)
+print(b)
